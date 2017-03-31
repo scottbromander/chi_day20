@@ -9,7 +9,7 @@ var employees = require("./routes/employee");
 
 //Database Variables
 var mongoose = require("mongoose");
-var mongoURI = "mongodb://localhost:27017/company";
+var mongoURI = "mongodb://mcfluffy:12345@ds147520.mlab.com:47520/meowymcmeowerton";
 var MongoDB = mongoose.connect(mongoURI).connection;
 
 //If there is an error connecting to the database, let us know!
