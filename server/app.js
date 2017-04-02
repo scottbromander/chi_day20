@@ -9,7 +9,8 @@ var employees = require("./routes/employee");
 
 //Database Variables
 var mongoose = require("mongoose");
-var mongoURI = "mongodb://mcfluffy:12345@ds147520.mlab.com:47520/meowymcmeowerton";
+//replace username and password with your own info! Specific to your mLabs account.
+var mongoURI = "mongodb://<<USERNAME>>:<<PASSWORD>>@ds147520.mlab.com:47520/meowymcmeowerton";
 var MongoDB = mongoose.connect(mongoURI).connection;
 
 //If there is an error connecting to the database, let us know!
